@@ -364,3 +364,12 @@ img {
     color: white;
   }
 }
+.home .content-pick .contact form div h4 {
+  display: block;
+}
+.home .content-pick .contact form div input {
+  resize: vertical;
+}
+.home .content-pick .contact form input {
+  display: block;
+}
