@@ -20,6 +20,10 @@
     .intro-page {
       margin-top: 20px;
 
+      @media @tablet {
+        padding: 10px;
+      }
+
       @media @mobile {
         padding: 10px;
       }
@@ -31,6 +35,10 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+
+    @media @tablet {
+      padding: 10px;
+    }
 
     @media @mobile {
       flex-flow: column nowrap;
@@ -96,6 +104,10 @@
     border-top: 2px dashed @navigation-border;
     display: flex;
     justify-content: space-between;
+
+    @media @tablet {
+      justify-content: center;
+    }
 
     @media @mobile {
       flex-direction: column;
