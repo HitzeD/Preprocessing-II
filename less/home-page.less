@@ -106,7 +106,8 @@
     justify-content: space-between;
 
     @media @tablet {
-      justify-content: center;
+      flex-direction: column;
+      width: 100%;
     }
 
     @media @mobile {
@@ -119,9 +120,15 @@
       width: 30%;
       margin-bottom: 30px;
 
-      @media @mobile {
+      @media @tablet {
         width: 100%;
         padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      @media @mobile {
         display: flex;
         flex-direction: column;
       }
