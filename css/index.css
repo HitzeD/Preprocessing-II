@@ -174,11 +174,22 @@ img {
   padding: 20px;
   border-bottom: 1px dashed gray;
 }
+@media (max-width: 500px) {
+  .wrap {
+    flex-direction: column;
+  }
+}
 .wrap h1 {
   font-size: 4rem;
+  align-self: center;
 }
 .wrap .nav {
   padding: 10px;
+}
+@media (max-width: 500px) {
+  .wrap .nav {
+    align-self: center;
+  }
 }
 .wrap .nav a {
   padding: 10px;
