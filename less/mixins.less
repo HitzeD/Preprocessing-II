@@ -1,1 +1,14 @@
 // Mixins in here
+
+.test() {
+    border: 1px solid red;
+}
+
+.my-btn(@width: 200px, ) {
+    border-radius: 10px;
+    width: @width;
+    height: 50px;
+    background-color: @button-bg;
+    font-size: 1.6rem;
+    color: white;
+}
